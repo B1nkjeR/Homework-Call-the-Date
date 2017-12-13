@@ -1,0 +1,70 @@
+*{
+	margin: 5px;
+	padding: 0;
+
+}
+@import url('https://fonts.googleapis.com/css?family=Khula');
+
+
+html {
+}
+
+	body {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color:#333;
+	color:#ECEDF2;
+	margin-top: 10px;
+	padding: 5px;
+	font-family: 'Khula', sans-serif;
+	font-size: 16px;
+	color: black;
+}
+
+.divA{
+	float: none;
+	width: 90%;
+	height: auto;
+	padding:3%;
+	border: 10px;
+	border-color: #ECEDF2;
+	height: auto;
+	padding: 3%;
+	background-color: #AC1032;
+	color: #ECEDF2;
+	font-family: 'Khula', sans-serif;
+	font-size: 16px;
+	text-align: left;
+}
+
+.divB{
+	float: none;
+	width: 90%;
+	height: auto;
+	padding: 3%;
+	background-color: #AC1032;
+	border: 10px;
+	border-color: #ECEDF2;
+	color: #ECEDF2;
+	font-family: 'Khula', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+.p{
+	color: #ECEDF2;
+	font-family: 'Khula', sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+
+.footer{
+	color: #ECEDF2;
+	font-family: 'Khula', sans-serif;
+	font-size: 11px;
+}
+li{
+	text-align: left;
+}

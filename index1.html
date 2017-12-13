@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en/us/nl">
+
+<head>
+	 <script src="https://use.fontawesome.com/6cf3c4b1ed.js"></script>
+	 <meta charset="utf-8">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+	 <!-- This wil scale the fontsize so high res mobile users won´t have to squint -->
+	 <link href="style.css" rel="stylesheet">
+	 <link href="https://fonts.googleapis.com/css?family=Khula" rel="stylesheet">
+
+
+
+<title>Call the Date</title>
+</head>
+
+
+
+ <body>
+	 <div class="divA">
+	 	<h3>JavaScript opdracht voor 13 december 2017</h3>
+	 Opdracht: laat in JavaScript een functie controleren naar de huidige datum.<br>
+	 Op basis van deze controle gebeurt het volgende:
+	 <li>ofwel; omdat het Juli is verschijnt de tekst:<br>
+	 	Het is Juli, de kans bestaat dat het echt heet wordt.</li>
+	 <li>ofwel; omdat het geen Juli is verschijnt de tekst:<br>
+	 	Het is geen Juli, dus de temperatuur is ten minste niet op zijn hoogst.</li>
+	 This all in English!<br>
+	 </div>
+
+<div class="divB">
+<h3>The Current Date is:</h3>
+<p id="date2"></p>
+</div>
+
+<div class="divB">
+<h3>So:</h3>
+<p id="date"></p>
+</div>
+
+<script>
+var d= new Date();
+document.getElementById("date2").innerHTML = d.toDateString();
+</script>
+
+
+<script>
+var d=new Date( ).getMonth();
+docheck(d);
+function docheck(d){
+if (d ==6){
+document.getElementById("date").innerHTML = "It's July, so it can get really hot.";
+}
+else{
+document.getElementById("date").innerHTML = "It's not July, so at least we're not in the peak of the heat.";
+}
+}
+</script>
+</body>
+<div class="footer"><i class="fa fa-copyright"></i>Rienk Bezema 2017</div>
+</html>
